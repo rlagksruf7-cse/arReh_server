@@ -174,7 +174,7 @@ if __name__ == "__main__":
     parser.add_argument("--cert-file", help="SSL certificate file (for HTTPS)")
     parser.add_argument("--key-file", help="SSL key file (for HTTPS)")
     parser.add_argument(
-        "--host", default="172.31.4.44", help="Host for HTTP server (default: 172.31.4.44)"
+        "--host", default="54.218.119.139", help="Host for HTTP server (default: 54.218.119.139)"
     )
     parser.add_argument(
         "--port", type=int, default=5000, help="Port for HTTP server (default: 5000)"
